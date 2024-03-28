@@ -1,0 +1,84 @@
+Add a group
+
+sudo group add <group_name>
+
+
+Add user in a particular group
+
+sudo useradd -g <group_name> username
+
+
+  <<======  
+  sudo useradd -g gituser tester2
+  sudo passwd tester2
+  mkuserdir /home/tester2 tester2
+  sudo mkuserdir /home/tester2 tester2
+  sudo mkuserdir tester2 /home/tester2
+  mkhomedir-helper tester2
+  sudo mkhomedir-helper tester2
+  sudo mkhomedir_helper tester2
+  su - tester2
+  sudo usermod -s /bin/bash tester2
+  ========>>
+
+
+
+2  pwd
+    3  hostname
+    4  mkdir apps
+    5  cd apps
+
+
+	Install Python
+
+
+    6  wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
+    7  ls
+    8  tar -zxvf Python-2.7.18.tgz 
+    9  ls
+   10  cd Python-2.7.18/
+   11  ls
+   12  ./configure --prefix=$HOME/install_app/usr
+   13  make
+   14  make install
+
+
+
+
+   15  pwd
+   16  cd ../../
+   17  ls
+   18  cd install_app/
+   19  ls
+   20  cd usr/
+   21  ls
+   22  cd bin
+   23  ls
+   24  .python --version
+   25  ./python --version
+   26  groups
+   27  cat /etc/group
+   28  history
+
+
+
+ 	  Install ssh 
+
+
+
+	330  apt-get update
+  331  sudo apt-get update
+  332  sudo apt-get install openssh
+  333  sudo apt-get search  openssh
+  334  sudo apt-get search  openssh-server
+  335  sudo apt-get install  openssh-server
+  336  ifconfig
+  337  history
+  338  history | grep configure
+  339  su - tester1
+  340  history
+
+
+
+
+
