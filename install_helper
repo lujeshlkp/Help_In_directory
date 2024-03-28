@@ -81,4 +81,20 @@ sudo useradd -g <group_name> username
 
 
 
+		How to upload a project on github
 
+
+
+	git init
+	git remote add origin 'repository clone link'
+	<<<<create a repository in github and copy the link>>>>
+	git add .
+	git commit -m "your comment"
+	git push origin master
+
+
+
+
+		Change color of Line number column
+
+	:highlight LineNr ctermfg=green
